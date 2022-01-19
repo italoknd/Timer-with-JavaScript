@@ -13,7 +13,7 @@ function twoDigits(digits){
 
 //start count function
 function start() {
-  interval = setInterval(clockIsTicking, 1);
+  interval = setInterval(clockIsTicking, 1000);
 }
 
 //stop count function
