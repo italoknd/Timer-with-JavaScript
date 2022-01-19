@@ -5,9 +5,6 @@
   --cor-botao-stop: #ff1b1b;
   --cor-botao-stop-hover: #cc1717;
   
-  --cor-botao-reset: #162e33; 
-  --cor-botao-reset-hover: #000000;
-  
   --cor-botao-pause: #1c5477;
   --cor-botao-pause-hover: #14374d;
 }
@@ -65,9 +62,10 @@ button{
   color: white;
 }
 
-#reset-button{
-  background-color: var(--cor-botao-reset);
-  border: 1px solid var(--cor-botao-reset);
+.disable:disabled,
+.disable[disabled]{
+  background-color: var(--cor-botao-start);
+  border: 1px solid var(--cor-botao-start);
   color: white;
   padding: 10px 20px;
   outline: none;
@@ -75,12 +73,6 @@ button{
   transition: .5s;
   font-weight: bold;
   font-size: 1rem;
-}
-
-#reset-button:hover{
-  background-color: var(--cor-botao-reset-hover);
-  border: 1px solid var(--cor-botao-reset-hover);
-  color: white;
 }
 
 #pause-button{

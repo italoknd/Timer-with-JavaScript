@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,11 +9,10 @@
 </head>
 <body>
   <div id="timer-container">
-    <h1 id="timer-counter">00:00</h1>
-    <button id="start-button">Start</button>
-    <button id="stop-button">Stop</button>
-    <button id="reset-button">Reset</button>
-    <button id="pause-button">Pause</button>
+    <h1 id="timer-counter">00:00:00</h1>
+    <button id="start-button" class="disable" onclick="start()">Start</button>
+    <button id="stop-button" onclick="stop()">Stop</button>
+    <button id="pause-button" onclick="pause()">Pause</button>
   </div>
 
   <script src="js/timer.js"></script>
