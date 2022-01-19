@@ -1,0 +1,102 @@
+:root{
+  --cor-botao-start: #04E762;
+  --cor-botao-start-hover: #00ad48;
+
+  --cor-botao-stop: #ff1b1b;
+  --cor-botao-stop-hover: #cc1717;
+  
+  --cor-botao-reset: #162e33; 
+  --cor-botao-reset-hover: #000000;
+  
+  --cor-botao-pause: #1c5477;
+  --cor-botao-pause-hover: #14374d;
+}
+
+body{
+  background: #00A1E4;
+}
+
+#timer-container{
+  text-align: center;
+}
+
+h1{
+  color: white;
+}
+
+button{
+  margin-right: 3px;
+  cursor: pointer;
+}
+
+#start-button{
+  background-color: var(--cor-botao-start);
+  border: 1px solid var(--cor-botao-start);
+  color: white;
+  padding: 10px 20px;
+  outline: none;
+  border-radius: 3px;
+  transition: .5s;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+#start-button:hover{
+  background-color: var(--cor-botao-start-hover);
+  border: 1px solid var(--cor-botao-start-hover);
+  color: white;
+}
+
+#stop-button{
+  background-color: var(--cor-botao-stop);
+  border: 1px solid var(--cor-botao-stop);
+  color: white;
+  padding: 10px 20px;
+  outline: none;
+  border-radius: 3px;
+  transition: .5s;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+#stop-button:hover{
+  background-color: var(--cor-botao-stop-hover);
+  border: 1px solid var(--cor-botao-stop-hover);
+  color: white;
+}
+
+#reset-button{
+  background-color: var(--cor-botao-reset);
+  border: 1px solid var(--cor-botao-reset);
+  color: white;
+  padding: 10px 20px;
+  outline: none;
+  border-radius: 3px;
+  transition: .5s;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+#reset-button:hover{
+  background-color: var(--cor-botao-reset-hover);
+  border: 1px solid var(--cor-botao-reset-hover);
+  color: white;
+}
+
+#pause-button{
+  background-color: var(--cor-botao-pause);
+  border: 1px solid var(--cor-botao-pause);
+  color: white;
+  padding: 10px 20px;
+  outline: none;
+  border-radius: 3px;
+  transition: .5s;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+#pause-button:hover{
+  background-color: var(--cor-botao-pause-hover);
+  border: 1px solid var(--cor-botao-pause-hover);
+  color: white;
+}
